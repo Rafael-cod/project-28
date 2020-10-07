@@ -10,7 +10,7 @@ class Mango{
         this.r = 20;
         this.x = x;
         this.y = y;
-        this.image = loadImage("sprites/Mango.png");
+        this.image = loadImage("sprites/mango.png");
         World.add(world, this.body);
       }
       display(){
